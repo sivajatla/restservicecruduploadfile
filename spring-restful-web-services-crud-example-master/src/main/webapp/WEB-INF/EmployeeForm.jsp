@@ -7,10 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
- <form action="/employeeForm" method="get">
- Name :<input type="text">
- age  :<input type="text">
- <button type="submit"></button>
+ <form action="/SpringRestfulWebServicesCRUDExample/empForm" method="POST">
+ Name :<input type="text" name="fname">
+ age  :<input type="text" name="age">
+ <input type="submit" value="EmpFormSubmit"/>
  </form>
+ 
 </body>
 </html>
